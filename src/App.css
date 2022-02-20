@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.List {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  width: 50rem;
+  margin: 0rem auto;
+  border: 0.2rem solid rgba(0, 0, 0, 0.233);
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+.List-header {
+  display: flex;
+  align-items: center;
+}
+
+.List-header h2 {
+  color: rgb(37, 36, 36)
+}
+
+.AddToList {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  margin: 5rem auto
+}
+
+.AddToList-input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin: 0.3rem 0rem
+}
+
+.AddToList-btn {
+  padding: 0.5rem;
+  cursor: pointer;
+  background-color: #46144d;
+  font-weight: 750;
+  color: white;
+  border: none
+}
+
+.RemoveFromList-btn {
+  padding: 0.5rem;
+  cursor: pointer;
+  background-color: #46144d;
+  font-weight: 700;
+  color: white;
+  border: none
+}
+
